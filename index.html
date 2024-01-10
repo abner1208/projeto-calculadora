@@ -46,6 +46,23 @@
       color: black;
       text-align: right;
       padding: 5px;
+        overflow-x: auto;
+      overflow-y: hidden;
+    }
+    /* Barra de rolagem */
+    ::-webkit-scrollbar{
+    height: 4px;
+    }
+    /* Trilha (barra de progresso) da barra de rolagem */
+    ::-webkit-scrollbar-track{
+      background-color: gray;
+    }
+    /* Alça de rolagem arrástavel */
+    ::-webkit-scrollbar-thumb{
+      background-color: red;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+      background-color: blue;
     }
     </style>
   </head>
